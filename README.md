@@ -54,3 +54,32 @@ Hello!
 ```
 
 などと結果を得る。
+
+To create an order
+---
+
+これを手動で書くのは大変なので、生成のためのフォーマットを用意する。ベースはベース言語の `.strings`
+
+```
+// base.strings
+
+"HELLO_WORLD" = "こんにちは！";
+"GOOD_EVENING" = "こんばんは！";
+"GOOD_MORNING" = "おはようございます！";
+"GOOD_NIGHT" = "おやすみなさい！";
+```
+
+ここにアノテーションを付ける。（`.strings` は `//` コメントを許容する）
+
+```
+// base.strings
+
+"HELLO_WORLD" = "こんにちは！"; //@category=Label @instruction=これこれがこうです。 @screenshot=http://dropbox.com/
+"GOOD_EVENING" = "こんばんは！"; //@category=Button @instruction=これこれがこうです。 @screenshot=http://dropbox.com/
+"GOOD_MORNING" = "おはようございます！"; //@category=Title @instruction=これこれがこうです。 @screenshot=http://dropbox.com/
+"GOOD_NIGHT" = "おやすみなさい！"; //@category=Prompt @instruction=これこれがこうです。 @screenshot=http://dropbox.com/
+```
+
+（ところで、スクリーンショットを得るために、UI テストのフレームワークを使ってシナリオを記述し、元言語のスクリーンショットを得る。これは、国際対応した際に画面崩れが無いか、あるいはきちんと出力出来ているかを確認するためにも役立つ。）
+
+これを利用して、上記のオーダフォーマットを生成する。
