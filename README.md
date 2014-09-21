@@ -1,7 +1,7 @@
-gengo_parser
+GengoML
 ============
 
-Translation order format for convenience of parsing with a script.
+GengoML (Gengo Markup Language) is a translation order format for convenience of converting the result into expected formats (typically `.strings`, `.xml`, `.yml`...).
 
 Background
 ---
