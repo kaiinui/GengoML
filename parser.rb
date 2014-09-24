@@ -1,18 +1,37 @@
 class GengoML::Parser
+
+  # @return Hash
   def parse_file(filename)
     body = File.open(filename).read
     parse(body)
   end
 
-  def parse(body)
+  # @return Hash
+  def parse(text)
+    to_hash(text)
+  end
+
+  private
+
+  # @return Hash
+  def to_hash(body)
+    hash = {}
+    to_key_value_hash(body).each do |h|
+      next unless h
+      key = h[:key]
+      hash[key] = h[:value]
+    end
+    hash
+  end
+
+  # @return Array<Hash>
+  def to_key_value_hash(body)
     key_values = body.split("[[[@")
     key_values.map do |key_value|
       next if key_value == ""
       parse_key_value(key_value)
     end
   end
-
-  private
 
   # Typically follows are given as `key_value`
   #
@@ -24,14 +43,13 @@ class GengoML::Parser
   #
   # ```
   def parse_key_value(key_value)
-    pp key_value.split("]]]")
     key = key_value.split("]]]")[0]
     unclean_value = key_value.split("]]]")[1]
     value = clean_value(unclean_value)
 
     {
         key: key,
-        text: value
+        value: value
     }
   end
 
