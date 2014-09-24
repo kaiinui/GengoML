@@ -1,0 +1,63 @@
+[[[@APPSTORE_DESCRIPTION]]]
+
+Ta et bilde og del det umiddelbart online, uten dårligere kvalitet. Post er en applikasjon som enkelt lar deg ta bilder og dele dem ved å bruke et filter. Du trenger ikke engang å åpne appen for å gjøre alt dette. Bruk filtre som er spesielt utvalgt for deg, og del skarpe bilder med vennene dine!
+
+■ Ta et bilde og del det umiddelbart!
+
+Du kan dele bilder uten å åpne appen. Etter du har tatt et bilde med kamera, kan du umiddelbart dele det ved å taste på en notifikasjonskategori på toppen.
+
+■ Bruk klare filtre og ta herlige bilder.
+
+Med Post har tre filtre blitt valgt spesielt for din bruk! De vil hjelpe deg ta nydelige bilder, som du kan dele.
+
+[[[@APPSTORE_KEYWORDS]]]
+
+Filter, Utvidelse, Widget, Montasje, Fotograf, Bilde, Bilde, Rediger, Bilderedigering, Bilderedigering
+
+[[[@_PERMISSION_USAGE]]]
+
+Tast OK for å dele ditt seneste bilde.
+
+[[[@GET_STARTED]]]
+
+Kom i gang
+
+[[[@ALLOW_ME_PERMISSION]]]
+
+Først, gi Post tilgang til dine bilder.
+
+[[[@EXTENSION_INSTRUCTION_SWIPE_DOWN]]]
+
+Sveip ned fra toppen.
+
+[[[@EXTENSION_INSTRUCTION_GO_DOWN]]]
+
+Gå til bunnen.
+
+[[[@EXTENSION_INSTRUCTION_PRESS_EDIT]]]
+
+Taset ""Rediger""
+
+[[[@ALL_OK_ENJOY]]]
+
+Alt OK. Nyt!
+
+[[[@PHOTO_PERMISSION_DENIED]]]
+
+Post får ikke tilgang til bildene dine.
+
+[[[@OPEN_SETTINGS]]]
+
+Åpne innstillinger
+
+[[[@PHOTO_PERMISSION_RESCUE_INSTRUCTION]]]
+
+Gå deretter til 'Personvern' og skru på 'Bilde'
+
+[[[@APPSTORE_SS_1_COPY]]]
+
+Ta & del. Umiddelbart.
+
+[[[@APPSTORE_SS_2_COPY]]]
+
+Del nydelige bilder på sekunder.
